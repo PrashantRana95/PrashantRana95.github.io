@@ -1017,6 +1017,36 @@ body{
     font-family: "Oswald";
 }
 
+@media (max-width: 1320px) {
+    #content_1 .comic_hero div:last-child{
+        display: none;
+    }
+}
+
+@media (max-width: 1140px) {
+    #content_1 .comic_hero div:nth-child(6){
+        display: none;
+    }
+}
+
+@media (max-width: 948px) {
+    #content_1 .comic_hero div:nth-child(5){
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    #content_1 .comic_hero div:nth-child(4){
+        display: none;
+    }
+}
+
+@media (max-width: 580px) {
+    #content_1 .comic_hero div:nth-child(3){
+        display: none;
+    }
+}
+
 #comic_universe .container{
     margin: 0 auto;
     width: 900px;
@@ -1202,6 +1232,44 @@ body{
 
 #comic_stuff .comic_buzz .comic_3:hover img{
     box-shadow: 0px 0px 5px 5px #000;
+}
+
+@media (max-width: 984px) {
+    #comic_stuff .comic_buzz {
+        display: inline-flex;
+        width: 90%;
+    }
+}
+
+@media (max-width: 822px) {
+    #comic_stuff .comic_buzz {
+        display: inline-flex;
+        width: 78%;
+    }
+}
+
+@media (max-width: 708px) {
+    #comic_stuff .comic_buzz {
+        display: inline-flex;
+        width: 66%;
+    }
+}
+
+@media (max-width: 604px) {
+    #comic_stuff .comic_buzz {
+        display: inline-flex;
+        width: 57%;
+    }
+}
+
+@media (max-width: 508px) {
+    #comic_stuff .comic_buzz {
+        display: inline-flex;
+        width: 40%;
+    }
+    #comic_stuff .comic_buzz .comic_3{
+        display: none;
+    }
 }
 
 #cap_skew{
